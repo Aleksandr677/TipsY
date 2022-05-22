@@ -47,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				2038AC09283A2FB700E6106E /* TipsY */,
+				2038AC18283A2FB800E6106E /* Info.plist */,
 				2038AC08283A2FB700E6106E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +95,6 @@
 				2038AC0C283A2FB700E6106E /* SceneDelegate.swift */,
 				2038AC13283A2FB800E6106E /* Assets.xcassets */,
 				2038AC15283A2FB800E6106E /* LaunchScreen.storyboard */,
-				2038AC18283A2FB800E6106E /* Info.plist */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -332,7 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = THGV2QJ4R5;
-				INFOPLIST_FILE = TipsY/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = THGV2QJ4R5;
-				INFOPLIST_FILE = TipsY/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

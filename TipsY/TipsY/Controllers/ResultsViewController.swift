@@ -18,8 +18,11 @@ class ResultsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        totalLabel.text = String(format: "%.2f", totalPrice!)
+        settingsLabel.text = "Split between \(amountOfmen!), with \(Int(tipsAmount! * 100))% tip."
     }
 
     @IBAction func recalculatePressed(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
