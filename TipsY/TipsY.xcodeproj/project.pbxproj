@@ -14,6 +14,8 @@
 		2038AC14283A2FB800E6106E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2038AC13283A2FB800E6106E /* Assets.xcassets */; };
 		2038AC17283A2FB800E6106E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2038AC15283A2FB800E6106E /* LaunchScreen.storyboard */; };
 		2038AC23283A31E700E6106E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038AC22283A31E700E6106E /* ResultsViewController.swift */; };
+		2038AC2C283A330800E6106E /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038AC2B283A330800E6106E /* Tips.swift */; };
+		2038AC30283A331600E6106E /* CalculatorTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038AC2F283A331600E6106E /* CalculatorTips.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2038AC16283A2FB800E6106E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2038AC18283A2FB800E6106E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2038AC22283A31E700E6106E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		2038AC2B283A330800E6106E /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		2038AC2F283A331600E6106E /* CalculatorTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTips.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		2038AC09283A2FB700E6106E /* TipsY */ = {
 			isa = PBXGroup;
 			children = (
+				2038AC2A283A32F100E6106E /* Models */,
 				2038AC1F283A300100E6106E /* Views */,
 				2038AC21283A31C600E6106E /* Controllers */,
 				2038AC26283A322100E6106E /* Files */,
@@ -92,6 +97,15 @@
 				2038AC18283A2FB800E6106E /* Info.plist */,
 			);
 			path = Files;
+			sourceTree = "<group>";
+		};
+		2038AC2A283A32F100E6106E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2038AC2B283A330800E6106E /* Tips.swift */,
+				2038AC2F283A331600E6106E /* CalculatorTips.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2038AC0F283A2FB700E6106E /* CalculatorViewController.swift in Sources */,
+				2038AC2C283A330800E6106E /* Tips.swift in Sources */,
 				2038AC0B283A2FB700E6106E /* AppDelegate.swift in Sources */,
+				2038AC30283A331600E6106E /* CalculatorTips.swift in Sources */,
 				2038AC0D283A2FB700E6106E /* SceneDelegate.swift in Sources */,
 				2038AC23283A31E700E6106E /* ResultsViewController.swift in Sources */,
 			);
